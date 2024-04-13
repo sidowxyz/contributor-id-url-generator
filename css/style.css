@@ -13,9 +13,16 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  margin: 0;
+  /* margin: 0; */
   padding: 15px; /* Added padding for smaller screens */
+  margin-left: 10px;
+  margin-right: 10px;
 }
+
+body {
+  overflow: hidden;
+}
+
 
 .container {
   background-color: #fff; /* White card background */
@@ -60,6 +67,7 @@ input[type="url"] {
   background-color: #D0D0D5;
   font-family: "Actor", sans-serif;
   font-size: 20px;
+
 }
 
 button {
