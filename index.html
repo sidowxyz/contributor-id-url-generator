@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contributor ID URL Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  </head>
+  <body>
+    <h1>Contributor ID URL Generator</h1>
+
+    <label for="link">Enter URL:</label>
+    <input type="url" id="link" placeholder="https://example.com">
+
+    <label for="contributorId">Enter Contributor ID:</label>
+    <input type="text" id="contributorId" placeholder="?wt.mc_id=studentamb_####">
+
+    <button onclick="generateUrl()">Generate URL</button>
+
+    <p id="result"></p>
+
+    <button id="copyButton" onclick="copyUrl()" style="display: none;">Copy URL</button>
+    <script src="js/script.js"></script>
+
+    <div class="footer">
+      <p>Made with ❤ by sidowyxz</p>
+      <ul class="social-icons">
+        <li><a href="https://github.com/sidowxyz" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/sidowxyz/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://twitter.com/sidowxyz" target="_blank"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+    </div>
+  </body>
+</html>

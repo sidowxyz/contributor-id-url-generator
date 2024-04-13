@@ -1,0 +1,161 @@
+.actor-regular {
+  font-family: "Actor", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  font-family: "Actor", sans-serif;
+  background-color: #1B1B32; /* Light background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 15px; /* Added padding for smaller screens */
+}
+
+.container {
+  background-color: #fff; /* White card background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Limit container width on larger screens */
+  width: 100%; /* Use full width */
+  max-width: 600px; /* Limit max width */
+}
+
+
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  font-size: calc(24px + (40 - 24) * ((100vw - 320px) / (1600 - 320))); /* Responsive font size */
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-family: "Actor", sans-serif;
+  font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1600 - 320))); /* Responsive font size */
+}
+
+input[type="text"],
+input[type="url"] {
+  /* width: 30%; */
+  width: 480px;
+  height: 35px;
+  padding: 10px;
+  padding-left: 15px;
+  /* border: 0px solid #ccc; */
+  /* border-radius: 5px; */
+  margin-bottom: 10px;
+  background-color: #D0D0D5;
+  font-family: "Actor", sans-serif;
+  font-size: 20px;
+}
+
+button {
+  background-color: #3B3B4F; /* Primary blue color */
+  color: #ffffff;
+  width: 507px;
+  height: 60px;
+  padding: 12px 20px;
+  border: 3px solid #D0D0D5;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "Actor", sans-serif;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0062cc; /* Darker blue on hover */
+}
+
+#result {
+  margin-top: 30px;
+  font-size: 1.2em;
+  word-break: break-all;
+  background-color: #f0f0f0; /* Light gray background for URL */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    width: 90%; 
+  }
+}
+
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+.footer p {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-family: "Actor", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+}
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.social-icons li {
+  display: inline;
+  margin: 0 5px;
+}
+.social-icons a {
+  text-decoration: none;
+  color: inherit;
+}
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.social-icons li {
+  display: inline;
+  margin: 0 10px;
+}
+.social-icons a {
+  color: #ffffff; /* or any color you prefer */
+  font-size: 24px; /* Adjust the size as needed */
+}
+
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  input[type="text"], input[type="url"], button {
+    max-width: 100%; /* Allow full width on smaller screens */
+  }
+
+  h1, label {
+    text-align: center; /* Center text for smaller screens */
+  }
+}
