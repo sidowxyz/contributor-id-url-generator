@@ -27,7 +27,7 @@ A step-by-step series of examples that tell you how to get a development environ
 
 1. Clone the repo
 ```bash
-git clone https://github.com/yourgithubusername/contributor-id-url-generator.git
+git clone https://github.com/sidowxyz/contributor-id-url-generator.git
 ```
 2. Navigate to the directory
 ```bash
